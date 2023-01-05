@@ -24,4 +24,12 @@ let vu = 23;
 [google](https://google.com)  chao moi nguoi
 
 [google](https://google.com) chao moi nguoi buoi toi vui ve
-['google'](https://google.com) chao moi nguoi 
+
+
+```py
+print('phancao vu')
+def vu(x, y):
+    kari = lambda( x, y : x + y)
+```
+### okkkkk
+> ### note
