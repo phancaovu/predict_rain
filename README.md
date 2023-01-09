@@ -1,8 +1,14 @@
 # phan cao vu project data analyst 
+- [phan cao vu project data analyst](#phan-cao-vu-project-data-analyst)
+  - [Rain Predict in Australia](#rain-predict-in-australia)
+  - [Library](#library)
+  - [Clear data](#clear-data)
+  - [Handle data error](#handle-data-error)
+  - [Data Visualization](#data-visualization)
 
 ## Rain Predict in Australia
 
->## Library 
+## Library 
 ```py  
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,14 +20,17 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 import sklearn.metrics 
 ```
->## Clear data 
+## Clear data 
 >```rain = pd.read_csv('./rain.csv')```
 >
+>
 >``` rain.head()```
+>
 >
 > ![](https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/322554606_1106347593363691_2001542980926192804_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=fRGGtlEuVjcAX8hqcLu&_nc_ht=scontent.fsgn2-4.fna&oh=00_AfA6JnIrvPxDRxRCIHfRepsG761sOKPv2Gf0zlnqt4I15w&oe=63BFF7CF)
 >
 >```rain.info()```
+>
 > ![](https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/321123435_1233446584050469_4448477147016249291_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=WZPgOKsRxakAX-C6U07&_nc_ht=scontent.fsgn2-1.fna&oh=00_AfCThbxBj5Ai_NBKYPiUBBnpTgOWM-2Vek9LSaX8BwJgCw&oe=63C0FBC0)
 >
 >```rain.shape```
@@ -52,7 +61,7 @@ import sklearn.metrics
 > ![](https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/323773468_5799695793419638_6530623469781198235_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=sIba56fgT3gAX8GQfDC&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfDjYWwLoay_Fd7fzi8WWbtumi6Mh-uLbUviHo0Hg0xgoA&oe=63C16A7B)
 >
 
->## Handle data error 
+## Handle data error 
 >
 > ```py
 > # viết hàm xữ lý những giá trị rỗng 
@@ -76,7 +85,7 @@ import sklearn.metrics
 > ![](https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/324244551_1314788102432304_1626457060402488696_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=KtVVWsbV9rQAX9P8XO8&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfDyqMGFic_9BL0WEhJOyzyT1HKzXlm9FcGAq2BOmIAGBQ&oe=63C16526)
 >
 
->## Data Visualization
+## Data Visualization
 ```py
 # phân tích lượng mưa ở các thành phố
 plt.figure(figsize=(15, 5))
